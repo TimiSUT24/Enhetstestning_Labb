@@ -1,0 +1,16 @@
+﻿Buggar 
+Projekt/Funktion/Rad
+
+1. [UnitTesting]/[AddBook]/[27] [kod] ISBN nummer kan vara tom, ha bokstäver, vara för kort eller lång
+2. [UnitTesting]/[AddBook]/[27] [kod] ISBN nummer kan ha dupletter 
+
+3. [UnitTesting]/[RemoveBook]/[45] [kod] ISBN nummer kan tas bort när man lånar en bok
+
+4. [UnitTesting]/[SearchByTitle]/[70] [kod] kan inte hitta bok med små bokstäver om den har stora/delmatchning 
+5. [UnitTesting]/[SearchByISBN]/[60] [kod] kan inte hitta bok med delmatchning av isbn 
+
+6. [UnitTesting]/[ReturnBook]/[92] [kod] datumet nollställs inte vid återlämning 
+
+7. [UnitTesting]/[IsBookOverDue]/[140] [kod] får inte reda på hur många dagar en bok är försenad 
+8. [UnitTesting]/[CalculateLateFee]/[109] [kod] retunerar fel avgift ska vara * istället för +
+9. [UnitTesting]/[CalculateLateFee]/[109] [kod] kan beräkna avgift på böcker som inte är lånade 
